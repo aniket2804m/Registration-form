@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+           
+            .navbar{
+                background-color: red;
+                border-radius: 30px;
+                border-color: black;
+                border-style: solid;
+  
+             }
+          
+             .navbar ul{
+               overflow: auto;
+             }
+  
+             .navbar li{
+              float:left;
+              list-style: none;
+              margin: 13px 20px;
+             }
+  
+             .navbar li a{
+              padding: 3px 3px;
+              text-decoration: none;
+              color: white;
+             }
+  
+             .navbar li a:hover{
+              color: blue;
+             }
+              
+             .search{
+              float: right;
+              color: white;
+              padding: 12px 75px;
+             }
+  
+             .navbar input{
+              border: 2px solid black;
+              border-radius: 14px;
+              padding: 3px 17px;
+             }
+
+           .container{
+            color: blueviolet;
+            border: 2px;
+            margin: 34px;
+            padding: 34px;
+            background-color: chartreuse;
+            border-color: red;
+            border-style: solid;
+            border-radius: 13px;
+            
+
+           }
+
+           .btn{
+            background-color: crimson;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+           }
+
+           .btn:hover{
+            color: darkgoldenrod;
+            background-color: rgb(221, 200, 234);
+           }
+
+           h2{
+            text-align: center;
+            color: black;
+            background-color: antiquewhite;
+            border-radius: 13px;
+            border-color: blue;
+            border-style: solid;
+           }
+
+           tr{
+            text-align: center;
+           }
+
+           td{
+             color: brown;
+             text-align: right;
+           }
+
+           input{
+             border-color: blue;
+             border-style: solid;
+           }
+        </style>
+    </head>
+    <body>
+        
+
+       <div class="container" id="cont1">
+
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="search this website">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+             <h2>RAGISTRATION FORM</h2>
+            <form>
+           <table>
+                  
+                  <tr>
+                      <td>
+                       STUDENT NAME :
+                    </td>
+                   <td>
+                       
+                       <input type="text" placeholder="STUDENT NAME" name="">
+                   </td>
+               </tr>
+               
+                
+               <tr>
+                   <td>
+                       FATHER NAME:
+                   </td>
+                   <td>
+                    
+                       <input type="text" placeholder="FATHER NAME" name="">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       ADDRESS :
+                   </td>
+                   <TD>
+                       
+                       <input type="text" placeholder="ADDRESS" name="">
+                   </TD>
+               </tr>
+
+               <tr>
+                   <td>
+                       PASSWORD :
+                   </td>
+                   <td>
+                       
+                       <input type="passwor" placeholder="password" name="">
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       Gender :
+                   </td>
+                   <td>
+                       
+                       <input type="radio" placeholder="Gender" name="Gender" >Male
+                       <input type="radio" placeholder="Gender" name="Gender">Female
+                   </td>
+               </tr>
+
+               <tr>
+                   <td>
+                       Email :
+                   </td>
+                   <td>
+                   
+                       <input type="mail" placeholder="Gmail" name="">
+                   </td>
+               </tr>
+           
+             
+               <tr>
+                   <td>
+                       Age          :
+                   </td>
+                   <td>
+                   
+                       <input type="Age" placeholder="Age" name="">
+                   </td>
+               </tr>
+               
+
+               <tr>
+                   <td>
+                       Phone number :
+                   </td>
+                   <td>
+                       <select>
+                           <option>91</option>
+                           <option>81</option>
+                           <option>41</option>
+                           <option>98</option>
+                       </select>
+                       <input type="Phone" placeholder="" name="">
+                   </td>
+               </tr>
+
+               <tr> 
+                   <td>
+                       
+                       <a href="" class="btn">Submit</a>
+                       <a href="" class="btn">reset</a>
+                       <button class="btn">Contact us</button>
+                   </td>
+               </tr>
+
+             
+           </table>
+      
+       </form>
+    </div>
+    </body>
+</html>
